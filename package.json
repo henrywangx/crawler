@@ -1,0 +1,23 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "Draw the comments about the Chinese journals on muchong.com",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henrywangx/crawler"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ShawnWang",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.5",
+    "await": "^0.2.6",
+    "cheerio": "^0.22.0",
+    "express": "^4.15.0",
+    "iconv-lite": "^0.4.15",
+    "request": "^2.80.0"
+  }
+}
